@@ -1,8 +1,6 @@
 package entity;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -84,13 +82,6 @@ public class Disciplina implements Serializable {
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
-	}
-	
-	public void adicionarAluno(Aluno ...a) {
-		if (this.alunos == null) {
-			alunos = new ArrayList<Aluno>();
-		}
-		alunos.addAll(Arrays.asList(a));
 	}
 
 }

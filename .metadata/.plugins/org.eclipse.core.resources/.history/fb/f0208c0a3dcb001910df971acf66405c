@@ -9,7 +9,7 @@ public class HibernateUtil {
 	private static SessionFactory sessionFactory;
 	static {
 		try {
-			Configuration configuration = new Configuration().configure("config/postgre_hibernate.cfg.xml");
+			Configuration configuration = new Configuration().configure("../config/postgre_hibernate.cfg.xml");
 			StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
 					.applySettings(configuration.getProperties());
 			sessionFactory = configuration.buildSessionFactory(builder.build());
