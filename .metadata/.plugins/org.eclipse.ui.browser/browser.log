@@ -35,3 +35,35 @@ ago 29, 2019 12:39:08.63 Abrindo em uma sessão de navegador existente.
 
 ago 29, 2019 17:06:33.14 NEW SESSION
 ago 29, 2019 17:06:33.14 Abrindo em uma sessão de navegador existente.
+
+ago 30, 2019 17:01:19.98 NEW SESSION
+ago 30, 2019 17:01:19.98 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:05:13.95 [17911:17934:0830/170513.953273:ERROR:browser_process_sub_thread.cc(209)] Waited 58 ms for network service
+ago 30, 2019 17:05:13.98 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:08:08.50 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:08:08.68 [18170:18170:0830/170808.683076:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+ago 30, 2019 17:08:08.68 [18133:18156:0830/170808.688058:ERROR:browser_process_sub_thread.cc(209)] Waited 20 ms for network service
+ago 30, 2019 17:08:08.72 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:09:29.48 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:09:29.63 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:10:33.84 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:10:33.95 [18517:18517:0830/171033.951355:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+ago 30, 2019 17:10:34.14 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:24:48.39 [19138:19161:0830/172448.396861:ERROR:browser_process_sub_thread.cc(209)] Waited 7 ms for network service
+ago 30, 2019 17:24:48.47 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:28:58.70 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:28:58.74 [19427:19427:0830/172858.746637:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+ago 30, 2019 17:28:58.89 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:31:14.30 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:31:14.43 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:32:10.30 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:32:10.52 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:36:58.72 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:38:11.34 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:38:11.47 [20304:20327:0830/173811.476929:ERROR:browser_process_sub_thread.cc(209)] Waited 40 ms for network service
+ago 30, 2019 17:38:11.52 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:50:45.88 [21024:21046:0830/175045.879064:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+ago 30, 2019 17:50:46.20 Abrindo em uma sessão de navegador existente.
+ago 30, 2019 17:51:41.59 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ago 30, 2019 17:51:41.77 [21156:21178:0830/175141.772110:ERROR:browser_process_sub_thread.cc(209)] Waited 65 ms for network service
+ago 30, 2019 17:51:41.79 Abrindo em uma sessão de navegador existente.
