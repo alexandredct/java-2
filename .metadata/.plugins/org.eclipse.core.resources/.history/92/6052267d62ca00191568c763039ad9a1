@@ -1,0 +1,23 @@
+package service;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+import com.google.gson.Gson;
+
+import entity.Correntista;
+import manager.ManagerCorrentista;
+
+@Path("/correntista")
+public class ServiceCorrentista {
+	
+	@GET
+	public String listar() {
+		return new Gson().toJson(ManagerCorrentista.correntistas);
+	}
+	
+	public String gravar (String dados) {
+		Correntista co2 = new Gson().fromJson(dados, Correntista.class);
+		ManagerCorrentista.adicionar(co2);
+	}
+}

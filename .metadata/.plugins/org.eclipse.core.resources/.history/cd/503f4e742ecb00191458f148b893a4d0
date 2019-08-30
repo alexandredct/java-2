@@ -1,0 +1,65 @@
+package entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="tbl_aluno")
+public class Aluno {
+	@Id
+	@Column(name="aluno_id")
+	private Integer idAluno;
+	@Column(length=50)
+	private String nomeAluno;
+	
+	private String email;
+	
+	
+	private List<Disciplina> disciplinas;
+	
+	
+	@ManyToOne
+	@JoinColumn(name="disciplina", referencedColumnName="disciplina_id")
+	private Disciplina disciplina;
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Aluno(Integer idAluno, String nomeAluno, Disciplina disciplina) {
+		super();
+		this.idAluno = idAluno;
+		this.nomeAluno = nomeAluno;
+		this.disciplina = disciplina;
+	}
+
+	public Integer getIdAluno() {
+		return idAluno;
+	}
+
+	public void setIdAluno(Integer idAluno) {
+		this.idAluno = idAluno;
+	}
+
+	public String getNomeAluno() {
+		return nomeAluno;
+	}
+
+	public void setNomeAluno(String nomeAluno) {
+		this.nomeAluno = nomeAluno;
+	}
+
+	public Disciplina getDisciplina() {
+		return disciplina;
+	}
+
+	public void setDisciplina(Disciplina disciplina) {
+		this.disciplina = disciplina;
+	}
+}

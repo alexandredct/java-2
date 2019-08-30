@@ -1,0 +1,60 @@
+package persistence;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import entity.Cliente;
+import entity.Endereco;
+
+public class ClienteDao {
+
+	Session session;
+	Transaction transaction;
+	Query query;
+
+	public void create(Cliente c, Endereco e) throws Exception {
+		try {
+			session = HibernateUtil.getSessionFactory().openSession();
+			transaction = session.beginTransaction();
+
+			session.save(c);
+			e.setCliente(c);
+			session.save(e);
+			transaction.commit();
+			session.close();
+
+		} catch (Exception e2) {
+
+			transaction.rollback();
+			throw new Exception("Erro na Gravacao");
+		}
+	}
+
+	public List<Cliente> findAll() {
+
+		session = HibernateUtil.getSessionFactory().openSession();
+		List<Cliente> resposta = session.createQuery("select obj from Cliente as obj").list();
+		session.close();
+		
+		return resposta;
+	}
+
+	public static void main(String[] args) {
+
+		try {
+
+//			Cliente c = new Cliente(null, "luis", "luis@gmail.com");
+//			Endereco e = new Endereco(null, "av Rio Branco,185", "Rio de Janeiro", "Centro", "rj");
+//
+//			new ClienteDao().create(c, e);
+
+		} catch (Exception ex) {
+
+			System.out.println("Erro: " + ex.getMessage());
+			ex.printStackTrace();
+		}
+	}
+}

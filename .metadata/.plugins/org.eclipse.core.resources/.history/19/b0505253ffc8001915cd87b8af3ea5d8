@@ -1,0 +1,11 @@
+package persistence;
+
+public class DaoMysql {
+	Connection con;
+	PreparedStatements stmt;
+	ResultSet rs;
+	
+	public void open () throws Exception {
+		
+	}
+}

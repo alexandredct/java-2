@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;entity.Endereci&apos; to &apos;Endereco&apos;&#x0A;- Original project: &apos;projetoHibernate&apos;&#x0A;- Original element: &apos;entity.Endereci&apos;&#x0A;- Renamed element: &apos;entity.Endereco&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Endereci&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;entity{Endereci.java[Endereci" matchStrategy="1" name="Endereco" qualified="false" references="true" similarDeclarations="false" stamp="1567018191336" textual="false" version="1.0"/>
+</session>

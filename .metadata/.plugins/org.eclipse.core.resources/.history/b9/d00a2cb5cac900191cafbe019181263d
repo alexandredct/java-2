@@ -1,0 +1,8 @@
+package config;
+
+import javax.validation.Configuration;
+
+public class Main {
+	
+	Configuration conf = new Configuration();
+}

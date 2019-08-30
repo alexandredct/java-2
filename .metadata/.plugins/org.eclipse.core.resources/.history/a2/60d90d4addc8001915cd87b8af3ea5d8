@@ -1,0 +1,8 @@
+package service;
+
+import javax.ws.rs.GET;
+
+@Path("/produto")
+public class ServiceProduto {
+	public String
+}

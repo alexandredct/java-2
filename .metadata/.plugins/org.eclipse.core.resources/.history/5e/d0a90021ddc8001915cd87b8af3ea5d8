@@ -1,0 +1,6 @@
+package service;
+
+@Path("/produto")
+public class ServiceProduto {
+	public String
+}

@@ -1,0 +1,13 @@
+package persistencejs;
+
+import com.mongodb.MongoClient;
+
+public class Dao {
+	
+	public MongoClient client;
+	public MongoClient getClient() {
+		client = new MongoClient();
+		return client;
+	}
+
+}

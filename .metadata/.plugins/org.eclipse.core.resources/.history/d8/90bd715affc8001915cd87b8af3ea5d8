@@ -1,0 +1,12 @@
+package persistence;
+
+public class DaoMysql {
+	Connection con;
+	PreparedStatements stmt;
+	ResultSet rs;
+	
+	public void open () throws Exception {
+		Class.forName("com.mysql.jdbc.Driver");
+		con.DriverManager.getConnection("jdbc:mysql://localhost:3306/BD")
+	}
+}

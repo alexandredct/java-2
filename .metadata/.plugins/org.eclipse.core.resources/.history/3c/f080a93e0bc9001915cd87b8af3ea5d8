@@ -1,0 +1,61 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import entity.Usuario;
+import persistence.UsuarioDao;
+
+
+@WebServlet("/UsuarioController")
+public class UsuarioController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private HttpSession session;
+	Usuario usuario;
+	Usuario logado;
+	UsuarioDao dao;
+	
+    public UsuarioController() {
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			usuario = new Usuario();
+			usuario.setEmail(request.getParameter("email"));
+			usuario.setSenha(request.getParameter("senha"));
+			logado = dao.findByLogin(usuario);
+			
+			if (logado == null) {
+				request.setAttribute("msg", "Dados Inválidos");
+				request.getRequestDispatcjer("adm/pages.jsp").forward(request, response);
+			} else {
+				session = request.getSession(true);
+				session.setAttribute("usuario", logado);
+				if (logado.getPerfil().equalsIgnoreCase("adm")) {
+					request.getRequestDispatcher("adm/pages.jsp").forward(request, response);
+				} else {
+					request.get
+				}
+				request.getRequestDispatcher("usu/pages.jsp").forward(request, response);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		doGet(request, response);
+	}
+
+}
+

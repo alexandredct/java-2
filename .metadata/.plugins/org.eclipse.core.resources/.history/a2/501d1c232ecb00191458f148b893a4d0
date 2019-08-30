@@ -1,0 +1,15 @@
+package entity;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="tbl_disciplina")
+public class Disciplina {
+
+	private Integer idDisciplina;
+	private String nomeDisciplina;
+	private List<Alunos> alunos;
+}

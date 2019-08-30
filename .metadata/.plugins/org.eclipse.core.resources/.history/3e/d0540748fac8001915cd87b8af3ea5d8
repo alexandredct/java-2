@@ -1,0 +1,19 @@
+package persistencejs;
+
+import entity.Produto;
+
+public class ProdutoDao extends Dao {
+	
+	public static final String PRODUTO = "produto";
+	
+	public void save (Produto p ) throws Exception {
+		try {
+			MongoClient <Document> coll = getDb().getCollection(PRODUTO);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

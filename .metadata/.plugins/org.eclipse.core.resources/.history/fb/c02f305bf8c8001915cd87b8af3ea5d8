@@ -1,0 +1,5 @@
+package persistencejs;
+
+public class Dao {
+
+}

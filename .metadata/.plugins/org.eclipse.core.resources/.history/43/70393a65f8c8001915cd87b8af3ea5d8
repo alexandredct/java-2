@@ -1,0 +1,10 @@
+package persistencejs;
+
+public class Dao {
+	
+	public MongoClient client;
+	public MongoClient getClient() {
+		
+	}
+
+}

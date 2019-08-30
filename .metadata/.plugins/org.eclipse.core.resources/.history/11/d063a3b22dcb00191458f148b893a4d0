@@ -1,0 +1,22 @@
+package entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="tbl_aluno")
+public class Aluno {
+	@Id
+	@Column(name="aluno_id")
+	private Integer idAluno;
+	@Column(length="50")
+	private String nomeAluno;
+	
+	@ManyToOne
+	@JoinColumn(name="disciplina", referencedColumnName="disciplina_id")
+	private Disciplina disciplina;
+}

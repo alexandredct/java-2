@@ -1,0 +1,13 @@
+package adapter;
+
+import org.bson.Document;
+
+import entity.Produto;
+
+public class ProdutoAdapter {
+
+	public static Document toDocument(Produto p) {
+		Document doc = new Document();
+		doc.append("", p);
+	}
+}

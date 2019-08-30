@@ -1,0 +1,13 @@
+package persistencejs;
+
+public class ProdutoDao extends Dao {
+	
+	public static final String PRODUTO = "produto";
+	
+	public void save (Produto p ) throws Exception {
+		Produto p = null;
+		
+		return p;
+	}
+
+}

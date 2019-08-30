@@ -1,0 +1,39 @@
+package entity;
+
+import java.io.Serializable;
+
+public class Aluno implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Long idAluno;
+	private String nome;
+	private String disciplina;
+	private Double nota1;
+	private Double nota2;
+	private Double media=0.;
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Aluno [idAluno=" + idAluno + ", nome=" + nome + ", disciplina=" + disciplina + ", nota1=" + nota1
+				+ ", nota2=" + nota2 + ", media=" + media + "]";
+	}
+
+	public Aluno(Long idAluno, String nome, String disciplina, Double nota1, Double nota2, Double media) {
+		super();
+		this.idAluno = idAluno;
+		this.nome = nome;
+		this.disciplina = disciplina;
+		this.nota1 = nota1;
+		this.nota2 = nota2;
+		this.media = media;
+	}
+	
+}

@@ -1,0 +1,33 @@
+package persistence;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import entity.Cliente;
+import entity.Endereco;
+
+public class ClienteDao {
+
+	Session session;
+	Transaction transaction;
+	Query query;
+
+	public void create(Cliente c, Endereco e) throws Exception{
+		try {
+			session = HibernateUtil.getSessionFactory().openSession();
+			transaction = session.beginTransaction();
+			
+			session.save(c);
+			e.setCliente(c);
+			session.save(e);
+			transaction.commit();
+			session.close();
+			
+		} catch (Exception e2) {
+			
+			transaction.rollback();
+			throw new Exception("Erro na Gravacao");
+		}
+	}
+}

@@ -1,0 +1,71 @@
+package entity;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="tbl_aluno")
+@SequenceGenerator(name="seq_aluno", sequenceName = "seq_aluno")
+public class Aluno  implements Serializable{
+	@Id
+	@Column(name="aluno_id")
+	@GeneratedValue(generator="seq_aluno")
+	private Integer idAluno;
+	@Column(length=50)
+	private String nomeAluno;
+	
+	@Column(length=50, unique=true)
+	private String email;
+	
+	
+	private List<Disciplina> disciplinas;
+	
+	
+	@ManyToOne
+	@JoinColumn(name="disciplina", referencedColumnName="disciplina_id")
+	private Disciplina disciplina;
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Aluno(Integer idAluno, String nomeAluno, Disciplina disciplina) {
+		super();
+		this.idAluno = idAluno;
+		this.nomeAluno = nomeAluno;
+		this.disciplina = disciplina;
+	}
+
+	public Integer getIdAluno() {
+		return idAluno;
+	}
+
+	public void setIdAluno(Integer idAluno) {
+		this.idAluno = idAluno;
+	}
+
+	public String getNomeAluno() {
+		return nomeAluno;
+	}
+
+	public void setNomeAluno(String nomeAluno) {
+		this.nomeAluno = nomeAluno;
+	}
+
+	public Disciplina getDisciplina() {
+		return disciplina;
+	}
+
+	public void setDisciplina(Disciplina disciplina) {
+		this.disciplina = disciplina;
+	}
+}

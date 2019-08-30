@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/aluno/Área de Trabalho/workspace/trindade_alexandre/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1892228019.index
+/dia02/src
+/home/aluno/Área de Trabalho/workspace/trindade_alexandre/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4208711063.index
+/dia02/src
+/home/aluno/Área de Trabalho/workspace/trindade_alexandre/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4145791739.index
+/dia02/src
