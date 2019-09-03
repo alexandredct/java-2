@@ -1,9 +1,0 @@
-package main;
-
-import entity.Usuario;
-
-public class Main {
-	public static void main(String[] args) {
-		Usuario u = new Usuario(100, "Lu", "lu@teste.com", "usu", "123", new Date("08/08/2019"));
-	}
-}
