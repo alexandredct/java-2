@@ -124,3 +124,44 @@ set 02, 2019 12:44:21.77 Abrindo em uma sessão de navegador existente.
 set 02, 2019 12:49:13.27 NEW SESSION
 set 02, 2019 12:49:13.27 Abrindo em uma sessão de navegador existente.
 set 02, 2019 12:50:47.50 Abrindo em uma sessão de navegador existente.
+
+set 03, 2019 14:30:37.74 NEW SESSION
+set 03, 2019 14:30:37.75 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:30:37.89 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:33:36.84 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:33:37.02 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:44:53.36 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:44:53.40 [15907:15907:0903/144453.405487:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 03, 2019 14:44:53.52 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:45:27.05 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:45:27.13 [16034:16034:0903/144527.139636:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 03, 2019 14:45:27.19 [15992:16014:0903/144527.198036:ERROR:browser_process_sub_thread.cc(209)] Waited 6 ms for network service
+set 03, 2019 14:45:27.21 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:46:24.15 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:51:11.78 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:51:11.81 [16491:16491:0903/145111.816845:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 03, 2019 14:51:11.98 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:51:34.60 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:53:15.74 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:53:15.90 Abrindo em uma sessão de navegador existente.
+set 03, 2019 14:59:32.69 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 14:59:32.81 Abrindo em uma sessão de navegador existente.
+set 03, 2019 15:00:47.84 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 15:00:47.92 [17317:17317:0903/150047.921620:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 03, 2019 15:00:48.00 Abrindo em uma sessão de navegador existente.
+set 03, 2019 15:01:13.06 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 15:01:13.21 [17398:17420:0903/150113.210462:ERROR:browser_process_sub_thread.cc(209)] Waited 43 ms for network service
+set 03, 2019 15:01:13.24 Abrindo em uma sessão de navegador existente.
+set 03, 2019 15:18:02.17 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 15:18:02.31 Abrindo em uma sessão de navegador existente.
+set 03, 2019 15:20:07.25 Abrindo em uma sessão de navegador existente.
+set 03, 2019 17:52:44.06 Abrindo em uma sessão de navegador existente.
+set 03, 2019 17:53:16.38 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 17:53:16.48 Abrindo em uma sessão de navegador existente.
+set 03, 2019 17:54:38.19 [23595:23618:0903/175438.192191:ERROR:browser_process_sub_thread.cc(209)] Waited 35 ms for network service
+set 03, 2019 17:54:38.19 Abrindo em uma sessão de navegador existente.
+set 03, 2019 17:55:18.56 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 17:55:18.62 [23712:23734:0903/175518.627369:ERROR:browser_process_sub_thread.cc(209)] Waited 12 ms for network service
+set 03, 2019 17:55:18.68 Abrindo em uma sessão de navegador existente.
+set 03, 2019 17:59:48.08 [23954:23977:0903/175948.087012:ERROR:browser_process_sub_thread.cc(209)] Waited 54 ms for network service
+set 03, 2019 17:59:48.09 Abrindo em uma sessão de navegador existente.

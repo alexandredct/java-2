@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets" 
+      xmlns:h="http://java.sun.com/jsf/html" 
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+	>
+
+<h:head>
+</h:head>
+
+<h:body>
+
+<p:panel header="Projeto JSF">
+<p:accordionPanel activeIndex="-1" id="tab1">
+	<p:tab title="Gravar Produto">
+		<h:form id="form1">
+			<p:panelGrid columns="2">
+				<h:outputText value="Nome" />
+				<p:inputText value="#{mb.produto.nome}" required="true"/>
+				
+				<h:outputText value="Preço" />
+				<p:inputText value="#{mb.produto.preco}" required="true"/>
+				
+				<h:outputText value="Quantidade" />
+				<p:inputText value="#{mb.produto.quantidade}" required="true"/>
+				
+				<p:commandButton 
+					value="Gravar os Dados" 
+					action="#{mb.gravar}" 
+					ajax="true" 
+					update=":tab1:form1">
+				</p:commandButton>
+			</p:panelGrid>
+			
+			<p:growl></p:growl>
+			<p:messages></p:messages>
+			
+		</h:form>
+	</p:tab>
+	
+	<p:tab title="Listagem Produto">
+		<h:form id="form2">
+			<p:dataTable value="#{mb.produtos}" var="item" paginator="true" rows="2">
+				
+				<p:column headerText="Nome">
+					<h:outputText value="#{item.nome}"/>
+				</p:column>
+				
+				<p:column headerText="Preco">
+					<h:outputText value="#{item.preco}"/>
+				</p:column>
+				
+			</p:dataTable>
+		</h:form>
+	</p:tab>
+
+</p:accordionPanel>
+</p:panel>
+
+</h:body>
+</html>

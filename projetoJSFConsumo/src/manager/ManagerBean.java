@@ -4,14 +4,14 @@ import java.util.List;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 
 import entity.Produto;
 import service.Consumes;
 
 @ManagedBean(name = "mb")
-@RequestScoped
+@SessionScoped
 public class ManagerBean {
 
 	private Consumes consumo;
@@ -20,6 +20,7 @@ public class ManagerBean {
 
 	public ManagerBean() {
 		this.consumo = new Consumes();
+		this.produto = new Produto();
 	}
 
 	@Override
@@ -29,13 +30,6 @@ public class ManagerBean {
 
 	public Consumes getConsumo() {
 		return consumo;
-	}
-
-	public ManagerBean(Consumes consumo, Produto produto, List<Produto> produtos) {
-		super();
-		this.consumo = consumo;
-		this.produto = produto;
-		this.produtos = produtos;
 	}
 
 	public void setConsumo(Consumes consumo) {
