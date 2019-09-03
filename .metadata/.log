@@ -3519,3 +3519,6 @@ org.eclipse.core.runtime.OperationCanceledException
 
 !ENTRY org.eclipse.wst.server.discovery 1 0 2019-09-03 17:59:20.556
 !MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-09-03 18:02:09.228
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4

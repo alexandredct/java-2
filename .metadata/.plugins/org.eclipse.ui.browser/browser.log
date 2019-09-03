@@ -165,3 +165,8 @@ set 03, 2019 17:55:18.62 [23712:23734:0903/175518.627369:ERROR:browser_process_s
 set 03, 2019 17:55:18.68 Abrindo em uma sessão de navegador existente.
 set 03, 2019 17:59:48.08 [23954:23977:0903/175948.087012:ERROR:browser_process_sub_thread.cc(209)] Waited 54 ms for network service
 set 03, 2019 17:59:48.09 Abrindo em uma sessão de navegador existente.
+set 03, 2019 18:01:57.76 [24253:24302:0903/180157.765069:ERROR:browser_process_sub_thread.cc(209)] Waited 27 ms for network service
+set 03, 2019 18:01:57.87 Abrindo em uma sessão de navegador existente.
+set 03, 2019 18:01:57.88 [24257:24288:0903/180157.881872:ERROR:browser_process_sub_thread.cc(209)] Waited 6 ms for network service
+set 03, 2019 18:01:57.95 Abrindo em uma sessão de navegador existente.
+set 03, 2019 18:02:29.93 Abrindo em uma sessão de navegador existente.

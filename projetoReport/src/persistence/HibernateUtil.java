@@ -1,10 +1,5 @@
 package persistence;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -22,16 +17,6 @@ public class HibernateUtil {
 			System.err.println("Initial SessionFactory creation failed." + ex);
 			throw new ExceptionInInitializerError(ex);
 		}
-	}
-
-	public static ResultSet getConnection() throws Exception {
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BDOITCOTIREPORT", "root", "coti");
-		PreparedStatement stmt = con.prepareStatement("select * from tblcliente");
-		ResultSet rs = stmt.executeQuery();
-		rs.next();
-		System.out.println(rs.getString(1));
-		return rs;
 	}
 
 	public static SessionFactory getSessionFactory() {
