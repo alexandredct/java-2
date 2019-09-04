@@ -1,7 +1,0 @@
-package persistence;
-
-public class UsuarioDao extends DaoMysql {
-	public Usuario findByLogin(Usuario u) throws Exception {
-		
-	}
-}

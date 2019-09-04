@@ -170,3 +170,21 @@ set 03, 2019 18:01:57.87 Abrindo em uma sessão de navegador existente.
 set 03, 2019 18:01:57.88 [24257:24288:0903/180157.881872:ERROR:browser_process_sub_thread.cc(209)] Waited 6 ms for network service
 set 03, 2019 18:01:57.95 Abrindo em uma sessão de navegador existente.
 set 03, 2019 18:02:29.93 Abrindo em uma sessão de navegador existente.
+set 03, 2019 18:05:06.82 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 03, 2019 18:05:07.18 [24756:24756:0903/180507.188672:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+set 04, 2019 09:33:13.99 NEW SESSION
+set 04, 2019 09:33:13.99 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 04, 2019 09:33:14.09 Abrindo em uma sessão de navegador existente.
+set 04, 2019 11:35:55.37 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 04, 2019 11:35:55.45 [11961:11961:0904/113555.458243:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 04, 2019 11:35:55.68 [11920:11943:0904/113555.680561:ERROR:browser_process_sub_thread.cc(209)] Waited 102 ms for network service
+set 04, 2019 11:35:55.77 Abrindo em uma sessão de navegador existente.
+set 04, 2019 11:37:46.55 Abrindo em uma sessão de navegador existente.
+set 04, 2019 11:40:19.25 [12469:12492:0904/114019.258129:ERROR:browser_process_sub_thread.cc(209)] Waited 1 ms for network service
+set 04, 2019 11:40:19.30 Abrindo em uma sessão de navegador existente.
+
+set 04, 2019 11:45:10.84 NEW SESSION
+set 04, 2019 11:45:10.84 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+set 04, 2019 11:45:10.88 [12977:12977:0904/114510.889305:ERROR:sandbox_linux.cc(364)] InitializeSandbox() called with multiple threads in process gpu-process.
+set 04, 2019 11:45:11.07 Abrindo em uma sessão de navegador existente.
